@@ -49,4 +49,15 @@ public class LinkList {
         newlink.next = first;
         first = newlink;
     }
+
+    public Link find(int key) {
+        Link current = first;
+        while(current != null) {
+            if(current.iData == key) {
+                return current;
+            }
+            current = current.next;
+        }
+        return null;
+    }
 }
