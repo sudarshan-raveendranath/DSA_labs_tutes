@@ -1,2 +1,1 @@
-# Academic
-this is my academic work repository
+# This is Data Structures and Algorithms module lab sheets repository.
